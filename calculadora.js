@@ -3,7 +3,7 @@ const calculadora = require ("./testes.js");
 
 function mostrarMenu() {
   console.log(
-    "Bem vindo à calculadora do Reinald, escolha uma opção:\n1. Efetuar uma soma \n2. Efetuar uma subtração \n3. Efetuar uma multiplicação\n4. Efetuar uma divisão \n5. Efetuar um cálculo de porcentagem\n6. Sair"
+    "Bem vindo à calculadora do Manel, escolha uma opção:\n1. Efetuar uma soma \n2. Efetuar uma subtração \n3. Efetuar uma multiplicação\n4. Efetuar uma divisão \n5. Efetuar um cálculo de porcentagem\n6. Sair"
   );
   let resultado = +prompt("Digite aqui a opção desejada: ");
   return resultado;
